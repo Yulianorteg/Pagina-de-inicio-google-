@@ -1,0 +1,27 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+.elementos{
+    display: block;
+    padding: 10px;
+    color: black;
+}
+#menu{
+    height: 17px;
+    padding-right:10px ;
+}
+#sesion{
+    background-color: #5a91e9;
+    color: aliceblue;
+    height: 27px;
+    width: 92px;
+}

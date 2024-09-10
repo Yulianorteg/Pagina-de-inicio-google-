@@ -52,14 +52,25 @@ nav{
     border-radius: 5px;
 }
 footer{
-    bottom: 0;
-    background: #f2f2f2;
-    height: 35px;
     width: 100%;
-    align-items: center;
-    justify-content: space-between;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border: 1px solid #e4e4e4;
+}
+footer a{
+    padding: 15px ;
+    color: #202124;
+}
+footer div{
     display: flex;
-    position: relative;
-    flex-wrap: wrap;
-    border-top: 1px solid #e4e4e4;
+    
+}
+#derecha{
+    justify-content: right;
+    background-image: url();
 }
